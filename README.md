@@ -10,7 +10,7 @@ typora-root-url: ..\image
 
 :page_with_curl: paper prototype
 
-![image-20201111160229271](../image/image-20201111160229271.png)
+![image-20201111160229271](./image/image-20201111160229271.png)
 
 ## 환경
 
