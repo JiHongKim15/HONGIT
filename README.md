@@ -1,5 +1,5 @@
 ---
-typora-root-url: ..\image
+typora-root-url: .\image
 ---
 
 # Hongit Homepage
@@ -30,6 +30,12 @@ typora-root-url: ..\image
 
 ### 2. Python
 
+- Django 설치
+
+  > cmd로 설정 https://doorbw.tistory.com/181
+  >
+  > Django 시작 https://tothefullest08.github.io/django/2019/02/11/django01/
+
 ### 3. Zappa
 
 > Serverless 구축을 가능하게 해주는 Python Package
@@ -49,7 +55,7 @@ zappa test https://hidekuma.github.io/serverless/aws/lambda/apigateway/zappa/pyt
 
 ###### 가상 환경 venv
 
-- 설치된 라이브러리르들의 복사본을 만들어서 독립적인 가상 환경 구축
+- 설치된 라이브러리들의 복사본을 만들어서 독립적인 가상 환경 구축
 
   - 하나의 기기에서 여러개의 프로젝트가 가지는 다른 의존성을 다룰 수 있음
 
@@ -68,4 +74,3 @@ zappa test https://hidekuma.github.io/serverless/aws/lambda/apigateway/zappa/pyt
 - aws 계정을 연동해야 zappa 사용가능
 - cli 다운로드
 - secret access key를 다운받아서 접근
-
