@@ -10,7 +10,7 @@ typora-root-url: .\image
 
 :page_with_curl: paper prototype
 
-![image-20201111160229271](./image/image-20201111160229271.png)
+![image-20201111160229271](../image/image-20201111160229271.png)
 
 ## 환경
 
@@ -35,6 +35,12 @@ typora-root-url: .\image
   > cmd로 설정 https://doorbw.tistory.com/181
   >
   > Django 시작 https://tothefullest08.github.io/django/2019/02/11/django01/
+  >
+  > Django 기초 http://pythonstudy.xyz/python/article/305-Django-App
+  
+- Flask 실행
+
+  > [https://medium.com/@mystar09070907/flask%EB%A1%9C-get-post-%EC%9A%94%EC%B2%AD-%EB%B3%B4%EB%82%B4%EA%B8%B0-1-57d8f4559793](https://medium.com/@mystar09070907/flask로-get-post-요청-보내기-1-57d8f4559793)
 
 ### 3. Zappa
 
@@ -52,6 +58,12 @@ zappa test https://hidekuma.github.io/serverless/aws/lambda/apigateway/zappa/pyt
 > https://m.blog.naver.com/PostView.nhn?blogId=skykbc&logNo=221370634678&proxyReferer=https:%2F%2Fwww.google.com%2F
 
 - 2020.11.12 현재 python 3.9 version에서 작동:x:
+
+:warning: **zappa deploy Error**
+
+> This application is already deployed - did you mean to call update?
+>
+> 이미 업로드 되어있음
 
 ###### 가상 환경 venv
 
@@ -74,3 +86,11 @@ zappa test https://hidekuma.github.io/serverless/aws/lambda/apigateway/zappa/pyt
 - aws 계정을 연동해야 zappa 사용가능
 - cli 다운로드
 - secret access key를 다운받아서 접근
+
+
+
+### 4. React
+
+- AWS에 React 배포
+
+> https://velog.io/@leejh3224/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EA%B0%9C%EC%8B%9C-AWS-S3%EC%97%90-React-%EC%95%B1-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0-vpjmq1glm8
