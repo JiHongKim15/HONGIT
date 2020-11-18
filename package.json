@@ -1,0 +1,15 @@
+{
+  "name": "hongitfront",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JiHongKim15/HONGIT.git",
+  "author": "jihong.kim <15computer@hanmail.net>",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "create-react-app": "^4.0.0",
+    "flat": "^5.0.2",
+    "react": "^17.0.1",
+    "whatever": "^6000.0.0"
+  }
+}

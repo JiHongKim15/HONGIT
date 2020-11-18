@@ -94,3 +94,19 @@ zappa test https://hidekuma.github.io/serverless/aws/lambda/apigateway/zappa/pyt
 - AWS에 React 배포
 
 > https://velog.io/@leejh3224/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EA%B0%9C%EC%8B%9C-AWS-S3%EC%97%90-React-%EC%95%B1-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EA%B8%B0-vpjmq1glm8
+
+- yarn error
+
+  >  Missing list of packages to add to your project
+  >
+  > https://github.com/yarnpkg/yarn/issues/3973
+
+  ```
+  yarn add react
+  
+  yarn add create-react-app 설정
+  
+  yarn create-react-app (폴더명)
+  ```
+
+>  리액트 시작하기 https://velopert.com/3613
