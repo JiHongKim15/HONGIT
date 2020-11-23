@@ -1,27 +1,10 @@
 import './App.css';
 import './Button.scss';
-import $ from 'jquery';
+// import $ from 'jquery';
+
+import Footer from './Footer';
 
 function App() {
-
-  {
-    $('.btn-6')
-      .on('mouseenter', function (e) {
-        var parentOffset = $(this).offset(),
-          relX = e.pageX - parentOffset.left,
-          relY = e.pageY - parentOffset.top;
-        $(this).find('span').css({ top: relY, left: relX })
-      })
-      .on('mouseout', function (e) {
-        var parentOffset = $(this).offset(),
-          relX = e.pageX - parentOffset.left,
-          relY = e.pageY - parentOffset.top;
-        $(this).find('span').css({ top: relY, left: relX })
-      });
-    $('[href=#]').click(function () { return false });
-  }
-
-
   return (
     <div className="App">
       <div className="mainLogo">
@@ -36,18 +19,17 @@ function App() {
       </div>
 
       <div className="wrap">
-        <div className="btn-6">
+        <button class="btn draw-border">
           Reservation
-        </div>
-        <div>
+        </button>
+        <button class="btn draw-border">
           Confirm
-        </div>
+        </button>
+
+        <Footer/>
       </div>
 
-      <hr />
-      <div className="questions">
-        문의사항 KaKaoTalk <a href="https://open.kakao.com/o/sceJXnGc">https://open.kakao.com/o/sceJXnGc</a>
-      </div>
+     
     </div>
   );
 }
