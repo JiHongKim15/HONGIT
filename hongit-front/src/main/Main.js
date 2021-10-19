@@ -4,7 +4,6 @@ import './Main.css';
 import Logo from './component/Logo';
 
 
-
 function Main() {
 
   return (
